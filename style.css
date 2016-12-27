@@ -1,0 +1,31 @@
+body {
+    background-color: #1A1718;
+    color: #fff;
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: 0 0 1px #fff;
+}
+
+a {
+    color: yellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.cursor {
+  animation: blinkie 1s linear infinite;
+  font-weight: bold;
+}
+
+@keyframes blinkie {  
+  50% {
+    opacity: 0;
+  }
+}
+

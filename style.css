@@ -2,7 +2,6 @@ body {
     background-color: #1A1718;
     color: #fff;
     font-family: "Courier New", Courier, monospace;
-    text-shadow: 0 0 1px #fff;
 }
 
 a {
@@ -11,6 +10,10 @@ a {
 
 h1 {
     text-align: center;
+}
+
+p {
+  text-align: justify;
 }
 
 .container {
@@ -29,3 +32,10 @@ h1 {
   }
 }
 
+code {
+  display: inline-block;
+  background-color: #594F52;
+  border-radius: 2px;
+  padding: 4px;
+  margin: 2px 0px;
+}

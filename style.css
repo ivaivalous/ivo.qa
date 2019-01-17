@@ -8,16 +8,21 @@ a {
     color: yellow;
 }
 
+a.note {
+  text-decoration: none;
+}
+
 h1 {
-    text-align: center;
+    text-align: left;
+    padding: 20px 0;
 }
 
 p {
-  text-align: justify;
+  text-align: left;
 }
 
 .container {
-    max-width: 500px;
+    max-width: 79ch;
     margin: 30px auto;
 }
 
@@ -34,6 +39,7 @@ p {
 
 code {
   display: inline-block;
+  font-size: 1.2em;
   background-color: #594F52;
   border-radius: 2px;
   padding: 4px;
